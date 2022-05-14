@@ -8,3 +8,6 @@ let incr = 10,
 
 console.log(incr);
 console.log(decr);
+
+
+const log = 5;
