@@ -31,11 +31,17 @@
 
 
 
-const hamburger = 3;
-const fries = '';
+// const hamburger = 3;
+// const fries = '';
 
-if (hamburger === 3 && fries) {
-    console.log('Мы сыты');
-} else {
-    console.log('мы уходим');
+// if (hamburger === 3 && fries) {
+//     console.log('Мы сыты');
+// } else {
+//     console.log('мы уходим');
+// }
+
+let i = 0
+
+for (i=0;i<=3;i++) {
+    console.log(i)
 }
