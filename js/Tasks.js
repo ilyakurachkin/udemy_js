@@ -40,25 +40,37 @@
 //     }
 // }
 // 5:Заполните массив цифрами от 5 до 10 включительно.
-function fifthTask() {
-    const arrayOfNumbers = [];
-    for (let i = 5; i<=10;i++) {
-        arrayOfNumbers[i - 5] = i;
-    }
+// function fifthTask() {
+//     const arrayOfNumbers = [];
+//     let i = 5;
+//     for (let i = 5; i<=10;i++) {
+//         arrayOfNumbers[i - 5] = i;
+//     }
     
-    console.log(arrayOfNumbers);
-    // Не трогаем
-    return arrayOfNumbers;
-}
+//     console.log(arrayOfNumbers);
+    
+//     return arrayOfNumbers;
+// }
+// fifthTask()
 
-// цикл for in
-let user = {
-    name: 'alex',
-    age: 19,
-    address: 'minsk'
-}
+// // цикл for in
+// let user = {
+//     name: 'alex',
+//     age: 19,
+//     address: 'minsk'
+// }
 
-for( let key in user) {
-    console.log(key)   
-    console.log(user[key])   
-}
+// for( let key in user) {
+//     console.log(key)   
+//     console.log(user[key])   
+// }
+
+
+
+
+
+
+
+
+
+
