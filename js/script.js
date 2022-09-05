@@ -1,23 +1,5 @@
 "use strict";
 
-// const numberOfFilms = +prompt('сколько фильмов вы уже посмотрели?', '');
-// const a = prompt('Один из последних посмотренных фильмов?', ''),
-//       b = prompt('На сколько оцените его?', ''),
-//       c = prompt('Один из последних посмотренных фильмов?', ''),
-//       d = prompt('На сколько оцените его?', '');
-
-// const personalMovieDB = {
-//     count: numberOfFilms,
-//     movies: {},
-//     actors: {},
-//     genres: [],
-//     privat: false
-// };
-
-// personalMovieDB.movies[a] = b;
-// personalMovieDB.movies[c] = d;
-
-// console.log(personalMovieDB);
 
 // const zhenya = 90;
 
@@ -64,3 +46,14 @@ for (let i = 1; i < length; i++) {
 
 console.log(result);
 
+//-----------------Счетчик валют------------
+
+const usdCurr = 2.54
+const eurCurr = 2.55
+
+function currencyCounter (summ,calc) {
+    console.log(summ*calc)
+}
+
+currencyCounter(100,usdCurr)
+currencyCounter(57,eurCurr)
